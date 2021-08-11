@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template
 import json
 import random
@@ -22,4 +23,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
